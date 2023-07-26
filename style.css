@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styling body font and position to relative */
+body {
+  width: 100%;
+  background: #0c111b;
+  position: relative;
+  font-family: roboto, sans-serif;
+}
+/* style for nav bar position fixed to make it fixed while scrolling */
+.navbar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 4%;
+  background: #0c111b;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+}
+/* logo div style */
+.brand-logo {
+  height: 70px;
+}
+/* styling the unodered list  */
+.nav-links {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+}
+/* styling list items and anchor tags text-transform to capitalize */
+.nav-items a {
+  text-decoration: none;
+  margin-left: 20px;
+  text-transform: capitalize;
+  color: #ffff;
+  opacity: 0.9;
+}
+/* styling right side of nav-bar */
+.right-container {
+  display: block;
+  margin-left: auto;
+}
+/* styling input box */
+.search-box {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: #fff;
+  width: 250px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+/* styling input box when selected */
+.search-box:focus {
+  width: 400px;
+  border-color: #1f80e0;
+}
+/* styling the button */
+.sub-btn {
+  background: #1f80e0;
+  height: 30px;
+  padding: 0 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0 10px;
+}
+/* styling the link */
+.login-link {
+  color: #fff;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* carousel designing */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  padding: 20px 0;
+  overflow-x: hidden;
+  margin-top: 80px;
+}
+
+.carousel {
+  display: flex;
+  width: 92%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slider {
+  flex: 0 0 auto;
+  margin-right: 30px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 70%;
+  min-height: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+}
+
+.slide-content {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to right, #030b17 80%, #0c111b00);
+  color: #fff;
+}
+
+.movie-title {
+  padding-left: 50px;
+  text-transform: capitalize;
+  margin-top: 80px;
+}
+
+.movie-des {
+  width: 80%;
+  line-height: 30px;
+  padding-left: 50px;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+
+/* bottom video card section */
+.video-card-container {
+  position: relative;
+  width: 92%;
+  margin: auto;
+  height: 10vw;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.video-card {
+  position: relative;
+  min-width: calc(100% / 5 - 10px);
+  width: calc(100% / 5 - 10px);
+  height: 100%;
+  margin: 0 0.5%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #030b17;
+}
+
+.card-video,
+.video-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-video {
+  position: relative;
+}
+
+.video-card:hover .video-card-image {
+  display: none;
+}
+
+.title {
+  color: #fff;
+  opacity: 0.9;
+  padding-left: 4%;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.movies-list {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  margin: 10px 0 20px;
+}
+
+.card-container {
+  position: relative;
+  width: 92%;
+  padding-left: 10px;
+  height: 228px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: visible;
+  scroll-behavior: smooth;
+}
+
+/* 
+new try
+.card {
+  width: 30%;
+  height: 228px;
+}
+.card-img {
+  border-radius: 5px;
+  height: 190px;
+}
+.card-body {
+  top: 100px;
+} */
