@@ -2,27 +2,27 @@ let movies = [
   {
     name: "falcon and the winter soldier",
     des: "lorem ipsum dolor sit amet consectetur sdipisicing elit.Velit porro eet venim excess",
-    image: "images/slider 2.png",
+    image: "images/slider 2.PNG",
   },
   {
     name: "loki",
     des: "lorem ipsum dolor sit amet consectetur sdipisicing elit.Velit porro eet venim excess",
-    image: "images/slider 1.png",
+    image: "images/slider 1.PNG",
   },
   {
     name: "wanda vision",
     des: "lorem ipsum dolor sit amet consectetur sdipisicing elit.Velit porro eet venim excess",
-    image: "images/slider 3.png",
+    image: "images/slider 3.PNG",
   },
   {
     name: "raya and the last dragon",
     des: "lorem ipsum dolor sit amet consectetur sdipisicing elit.Velit porro eet venim excess",
-    image: "images/slider 4.png",
+    image: "images/slider 4.PNG",
   },
   {
     name: "luca",
     des: "lorem ipsum dolor sit amet consectetur sdipisicing elit.Velit porro eet venim excess",
-    image: "images/slider 5.png",
+    image: "images/slider 5.PNG",
   },
 ];
 
